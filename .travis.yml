@@ -22,6 +22,7 @@ matrix:
 branches:
   only:
     - master
+    - /^v\d+\.\d+\.\d+/
 
 before_install:
   - openssl aes-256-cbc -K $encrypted_487cf28eaba8_key -iv $encrypted_487cf28eaba8_iv
